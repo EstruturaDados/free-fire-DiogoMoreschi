@@ -1,0 +1,12 @@
+# Build artifacts
+/bin/
+freefire
+*.o
+
+# Editor files
+.vscode/
+*.swp
+.DS_Store
+
+# Temporary
+*.tmp
