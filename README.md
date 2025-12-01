@@ -9,7 +9,7 @@ dividido em três níveis de complexidade:
 - **Aventureiro**: busca sequencial por nome
 - **Mestre**: ordenação (Insertion Sort) e busca binária por nome
 
-O arquivo principal é `FreeFire.c` e foi escrito para ser compilado com `gcc`.
+O arquivo principal está em `src/FreeFire.c`. Uma forma prática de compilar é usar o `Makefile` fornecido.
 
 ---
 
@@ -19,17 +19,17 @@ Instruções rápidas para compilar e rodar o programa em um sistema Linux com `
 
 Compilar:
 ```bash
-gcc -std=c11 FreeFire.c -o freefire
+make
 ```
 
 Executar:
 ```bash
-./freefire
+./bin/freefire
 ```
 
 Exemplo rápido (inicia o menu e sai):
 ```bash
-printf "0\n" | ./freefire
+printf "0\n" | ./bin/freefire
 ```
 
 Observações:
@@ -44,3 +44,6 @@ Observações:
 Se quiser, posso adicionar um `Makefile`, exemplos de uso ou testes automatizados.
 
 > Equipe de Ensino – MateCheck
+
+
+Use `make` para compilar: `make` e execute `./bin/freefire`.
